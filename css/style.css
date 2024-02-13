@@ -41,3 +41,28 @@ ul {
 .content {
   flex: 1;
 }
+
+.quote-container {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  padding: 100px;
+}
+
+.quote-origin {
+  font-size: 12px;
+  text-align: end;
+  font-weight: bolder;
+}
