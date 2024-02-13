@@ -66,3 +66,8 @@ ul {
   text-align: end;
   font-weight: bolder;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
