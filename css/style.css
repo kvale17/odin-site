@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero,
+.footer,
+.header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+  background-color: #1f2937;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+}
