@@ -40,6 +40,8 @@ ul {
 
 .content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-container {
@@ -70,4 +72,46 @@ ul {
 a {
   text-decoration: none;
   color: white;
+}
+
+.call-to-action.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.call-to-action.box {
+  width: 50%;
+  height: 30%;
+  color: white;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  border-radius: 25px;
+}
+
+.call-to-action.box .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action.box .text span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.call-to-action.box .text span:nth-of-type(2) {
+  font-size: 16px;
+}
+
+.call-to-action.box button {
+  border: 2px solid white;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: bold;
 }
