@@ -46,6 +46,7 @@ ul {
 
 .quote-container {
   background-color: #e5e7eb;
+  height: 300px;
 }
 
 .quote {
@@ -78,7 +79,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  height: 300px;
 }
 
 .call-to-action.box {
