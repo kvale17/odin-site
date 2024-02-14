@@ -28,7 +28,8 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 200px;
+  padding: 10px 160px;
+  margin-top: 0;
 }
 
 .footer {
@@ -36,6 +37,7 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  margin: 0;
 }
 
 .content {
@@ -79,7 +81,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 200px;
 }
 
 .call-to-action.box {
@@ -153,4 +155,39 @@ button {
 
 button:hover {
   background-color: #0dc516 !important;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 160px;
+  gap: 10%;
+  height: 15%;
+}
+
+.hero .left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.wide-img {
+  width: 600px;
+  margin-bottom: 40px;
+  border: 6px solid white;
+  border-radius: 8px;
 }
