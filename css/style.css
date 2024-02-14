@@ -95,6 +95,10 @@ a {
   align-items: center;
   padding: 30px 100px;
   border-radius: 25px;
+  background-image: url("../img/batman-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .call-to-action.box .text {
